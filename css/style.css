@@ -8,14 +8,21 @@ main {
   flex: 1; /* Hace que el contenido principal ocupe todo el espacio restante */
 }
 .img_finan {
-    max-width: 210px;
+    max-width: 200px;
     margin: 0 auto;
     display: block; 
    
 }
 .img_unite {
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+@media (width >768px) {
+    .img_unite,.img_finan{
+        max-width: 150px;
+    }
+    
 }
