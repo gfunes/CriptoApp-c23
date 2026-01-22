@@ -8,6 +8,14 @@ main {
   flex: 1; /* Hace que el contenido principal ocupe todo el espacio restante */
 }
 .img_finan {
-    width: 150px;
-    margin: auto;
+    max-width: 210px;
+    margin: 0 auto;
+    display: block; 
+   
+}
+.img_unite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
