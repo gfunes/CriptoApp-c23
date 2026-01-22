@@ -20,9 +20,15 @@ main {
     align-items: center;
     gap: 10px;
 }
+
+
 @media (width >768px) {
     .img_unite,.img_finan{
         max-width: 150px;
     }
+    .text-footer{
+            text-align: start !important;
+        }
+    
     
 }
