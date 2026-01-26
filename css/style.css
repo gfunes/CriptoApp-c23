@@ -24,7 +24,7 @@ main {
 
 @media (width >768px) {
     .img_unite,.img_finan{
-        max-width: 150px;
+        max-width: 100px;
     }
     .text-footer{
             text-align: start !important;
