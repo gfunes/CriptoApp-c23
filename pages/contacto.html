@@ -48,48 +48,61 @@
       </h3>
       <div class="container">
 <div class="row">
-  <div class="col-12 border border-primary">
-  <form class="border border-secondary-subtle  m-auto m-wd-50 ">
+  <div class="col-12 col-md-6 col-lg-6 ">
+  <form class="border borer-secondary-subtle  m-auto m-wd-50 ">
       <div class="mt-4 ms-4 me-4 mb-2">
         <label for="Nombre" class="form-label"
-          >Nombre:</label
+          >Nombre y apellido *</label
         >
         <input
           type="text"
           class="form-control mb-3"
           id="Nombre"
-          placeholder="Ingresa tu Nombre"
+          placeholder="Ej: Gabriel Funes"
           required
         />
         <label for="email" class="form-label"
-          >Correo Electronico</label
+          >Email *</label
         >
         <input
           type="email"
           class="form-control mb-3"
           id="email"
-          placeholder="Ingresa tu correo electronico"
+          placeholder="juanperez@mail.com"
+          required
+        />
+        <label for="tel" class="form-label"
+          >Telefono</label
+        >
+        <input
+          type="tel"
+          class="form-control mb-3"
+          id="tel"
+          placeholder="+54 9 11 1234 5678"
           required
         />
       </div>
       <div class="ms-4 me-4 mb-4 mt-1">
         <label for="mensaje" class="form-label mt-1"
-          >Mensaje:</label
+          >Ingresa tu consulta *</label
         >
         <textarea
           class="form-control"
           id="mensaje"
           rows="3"
           required
-          placeholder="Ingresa tu mensaje"
+          placeholder="Agrega tu consulta de hasta 500 caracteres"
+          maxlength="500"
           
         ></textarea>
-
-      <button class="btn btn-primary mt-3 " type="submit">Enviar Mensaje</button></div>
+<p>Los campos con (*) son obligarotios</p>
+      <button class="btn btn-primary mt-3 " type="submit">Enviar </button></div>
       </div>
       </form>
-<div class="col-12 border border-primary">
-<h3>aqui agregamos un mapa</h3>
+<div class="col-12 col-md-6 col-lg-6border border-primary">
+<div>
+  <h6 class="bi bi-pin-angle"> aqui agregamos un mapa</h6></div>
+  
       </div>
       </div>
     </main>
