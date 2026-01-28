@@ -7,6 +7,10 @@ body {
 main {
   flex: 1; /* Hace que el contenido principal ocupe todo el espacio restante */
 }
+
+.carousel-control-prev,.carousel-control-next{
+filter:invert(0)
+}
 .img_finan {
     max-width: 200px;
     margin: 0 auto;
