@@ -22,13 +22,22 @@ main {
 }
 
 
-@media (width >768px) {
+@media (width >=768px) {
     .img_unite,.img_finan{
         max-width: 100px;
     }
     .text-footer{
             text-align: start !important;
         }
+   .img-carrusel{
+height: 400px;
+object-fit: cover;
+}
+} 
    
-    
+   @media (width >=992px) {
+.img-carrusel{
+height: 500px;
+
+}
 }
